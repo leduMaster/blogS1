@@ -40,7 +40,7 @@ if(isset($_GET['page'])){
         case "komdel": 
             $komController->del();
             break;
-        case "regUser"
+        case "regUser":
             $userController->reg();
             break;
         case "reg":

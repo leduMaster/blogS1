@@ -31,28 +31,28 @@ if(isset($_GET['page'])){
         case "about":
             $pageController->about();
             break;
-        case "post": // PRIMER AJAX
+        case "post": 
             $postController->getOne();
             break;
-        case "posts": // PRIMER AJAX
+        case "posts": 
             $pageController->home();
             break;
-        case "komdel": // PRIMER AJAX
+        case "komdel": 
             $komController->del();
             break;
-        case "regUser": // PRIMER AJAX
+        case "regUser"
             $userController->reg();
             break;
-        case "reg": // PRIMER AJAX
+        case "reg":
             $pageController->register();
             break;
-        case "index": // PRIMER AJAX
+        case "index": 
             $pageController->home();
             break;
         case "lgin":
             $userController->lgin();
             break;
-        case "home": // PRIMER AJAX
+        case "home":
         $pageController->home();
             break;
         case "admin/add":

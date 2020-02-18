@@ -14,7 +14,7 @@ class RegUser
     private $id_uloga;
     public $data=[];
 
-    public function __construct(DB $db, $username, $email, $pass, $id_uloga)
+    public function __construct(DB $db, $username, $pass, $email, $id_uloga)
     {
         $this->pass=$pass;
         $this->db=$db;

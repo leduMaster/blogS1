@@ -47,9 +47,7 @@ class RegUser
         $result->bindValue(4, $this->id_uloga);
         $r=$result->execute();
         if($r){
-            return $this->data['
-                     "uspeh","uspesno upisano"
-           ' ];
+            echo "uspesno upisano";
         } else {
             return $this->data['
                      "neuspeh","neuspeh" '];
